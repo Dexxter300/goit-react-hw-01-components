@@ -1,4 +1,5 @@
 import css from './transactions.module.css'
+import PropTypes from "prop-types";
 
 
 export const TransactionHistory = ({ items }) => {
@@ -25,4 +26,8 @@ export const TransactionHistory = ({ items }) => {
             </tbody>
         </table>
     )
+}
+
+TransactionHistory.propTypes = {
+    items: PropTypes.array
 }

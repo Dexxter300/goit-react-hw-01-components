@@ -1,0 +1,41 @@
+.profile {
+    background-color: transparent;
+    width: 512px;
+    border: 1px solid grey;
+}
+
+.description {
+    border-bottom:1px solid grey ;
+}
+
+.name {
+
+}
+
+.tag {
+
+}
+
+.avatar{
+    border-bottom: 1px solid grey;
+}
+.location {
+
+}
+
+.stats {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.label {
+    display: block;
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+}
